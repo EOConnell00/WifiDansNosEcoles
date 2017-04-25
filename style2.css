@@ -50,8 +50,9 @@ nav {
     background-color: #1A2930;
     float: right;
     text-align: right;
-    padding: 15px 0 35px 0;
+    padding: 15px 0 25px 0;
     border-bottom: 20px solid #023EFF;
+    margin-top: 10px;
 }
 
 nav ul {
@@ -125,4 +126,27 @@ footer a {
 	display: inline;
 	margin-top: 5px;
 	padding: 5px;
+}
+
+/* Article Box1 Styling */
+
+.box1 {
+	width: 45%;
+	float: left;
+	margin: 15px;
+}
+
+.box1 img {
+	float: left;
+	width: 150px;
+}
+
+.box1 h2 {
+	float: left;
+	padding: 0 15px;
+	font-size: 16px;
+}
+
+.box1 h3 {
+    float: right;
 }
