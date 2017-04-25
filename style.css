@@ -28,7 +28,7 @@ header {
 nav {
 	color: white;
 	background-color: #1A2930;
-	border: 3px solid #023EFF;
+	/* border: 3px solid #023EFF; */
 	margin-top: 20px;
 }
 
@@ -45,6 +45,10 @@ nav ul li {
 nav ul li a {
 	text-decoration: none;
 	color: inherit;
+}
+
+nav a:hover {
+    color: #023EFF;
 }
 
 #navleft {
