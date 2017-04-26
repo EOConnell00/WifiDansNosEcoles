@@ -5,6 +5,7 @@ body{
 	margin: 0;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
+	background-color: #EFEFEF;
 }
 
 .content {
@@ -16,6 +17,10 @@ body{
     content: "";
     display: table;
     clear: both;
+}
+
+.line {
+	width: 80%; 
 }
 
 /* Header Styling */
@@ -30,7 +35,7 @@ header {
 #title {
 	float: left;
 	margin: 0;
-	padding: 15px;
+	padding: 20px;
 	font-size: 16px;
 }
 
@@ -42,7 +47,7 @@ header {
 
 nav {
 	float: right;
-	padding: 20px;
+	padding: 25px;
 	font-size: 16px;
 	text-transform: uppercase;
 }
@@ -65,15 +70,16 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #99D3DF;
+	text-decoration: underline;
 }
 
 /* Footer Styling */
 
 footer {
-	background-color: /* #0A1612 */ #CDCDCD;
-	color: /* white */ black;
-	border-bottom: 20px solid /* #023EFF */ #99D3DF;
+	background-color: #CDCDCD;
+	color: black;
+	border-bottom: 20px solid #99D3DF;
+	margin-top: 30px;
 }
 
 footer h2 {
@@ -121,9 +127,9 @@ footer a {
 	padding: 5px;
 }
 
-/* Logo and image styling */
+/* Logo and info styling */
 
-#photos {
+#info {
 	background-color: #EFEFEF;
 }
 
@@ -132,7 +138,7 @@ footer a {
 	border-top: 2px solid #99D3DF;
 	border-right: 2px solid #99D3DF;
 	border-radius: 15px;
-	margin: 15px;
+	margin: 30px 15px 30px 15px;
 	padding-top: 10px;
 	box-sizing: border-box;
 	float: left;
@@ -142,15 +148,20 @@ footer a {
 	padding-left: 20px;
 }
 
-#topimage {
+#description {
 	width: 70%;
 	float: right;
+	margin-top: 30px;
 }
 
-#topimage img {
-	width: 100%;
-	height: 200px;
-	padding: 20px 0;
+#description h2 {
+    text-align: center;
+
+}
+
+#description p {
+	text-align: center;
+	line-height: 1.3em;
 }
 
 /* Article Box1 Styling */
@@ -159,10 +170,16 @@ footer a {
 	background-color: #efefef;
 }
 
+#articles h1 {
+	text-align: center;
+	margin-top: 40px;
+}
+
 .box1 {
 	width: 70%;
-	margin: 0 auto 20px auto;
+	margin: 40px auto 20px auto;
 	border: 2px solid #99D3DF;
+	border-radius: 10px;
 	padding: 5px;
 	box-sizing: border-box;
 }
@@ -174,6 +191,13 @@ footer a {
 }
 
 .box1 h2 {
+	float: right;
+	width: 70%;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.box1 p {
 	padding: 0 15px 0 25px;
 	font-size: 16px;
 	width: 70%;
