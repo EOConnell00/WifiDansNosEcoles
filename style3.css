@@ -137,9 +137,11 @@ footer a {
 	width: 25%;
 	border-top: 2px solid #99D3DF;
 	border-right: 2px solid #99D3DF;
+	border-bottom: 2px solid #99D3DF;
+	border-left: 2px solid #99D3DF;
 	border-radius: 15px;
 	margin: 30px 15px 30px 15px;
-	padding-top: 10px;
+	padding: 10px 0;
 	box-sizing: border-box;
 	float: left;
 }
@@ -182,6 +184,7 @@ footer a {
 	border-radius: 10px;
 	padding: 5px;
 	box-sizing: border-box;
+	background-color: #FFFFFF;
 }
 
 .box1 img {
@@ -209,4 +212,9 @@ footer a {
     margin: 0;
     clear: both;
     text-align: right;
+}
+
+.headline a {
+	text-decoration: none;
+	color: black;
 }
