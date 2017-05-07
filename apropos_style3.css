@@ -166,55 +166,8 @@ footer a {
 	line-height: 1.3em;
 }
 
-/* Article Box1 Styling */
+/* Image Slider Styling */
 
-#articles {
-	background-color: #efefef;
-}
-
-#articles h1 {
-	text-align: center;
-	margin-top: 40px;
-}
-
-.box1 {
-	width: 70%;
-	margin: 40px auto 20px auto;
-	border: 2px solid #99D3DF;
-	border-radius: 10px;
-	padding: 5px;
-	box-sizing: border-box;
-	background-color: #FFFFFF;
-}
-
-.box1 img {
-	width: 20%;
-	float: left;
-	padding: 10px 0 10px 10px;
-}
-
-.box1 h2 {
-	float: right;
-	width: 70%;
-	text-align: left;
-	margin-bottom: 5px;
-}
-
-.box1 p {
-	padding: 0 15px 0 25px;
-	font-size: 16px;
-	width: 70%;
-	float: right;
-}
-
-.box1 h3 {
-    padding: 0;
-    margin: 0;
-    clear: both;
-    text-align: right;
-}
-
-.headline a {
-	text-decoration: none;
-	color: black;
+#slider img {
+	width: 100%;
 }
