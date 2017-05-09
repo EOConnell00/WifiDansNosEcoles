@@ -180,14 +180,11 @@ footer a {
 	float: left;
 }
 
-.leftp {
-	float: left;
-	width: 800px;
-}
-
 .fullbox .img2 {
 	margin: 20px 0 20px 30px;
 	float: right;
 	display: inline;
 	width: 160px;
+	position: relative;
+	bottom: 50px;
 }
