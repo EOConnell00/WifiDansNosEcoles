@@ -21,6 +21,7 @@ body{
 
 .line {
 	width: 80%; 
+	border: 1px solid #99D3DF;
 }
 
 /* Header Styling */
@@ -166,8 +167,27 @@ footer a {
 	line-height: 1.3em;
 }
 
-/* Image Slider Styling */
+/* Main Content Styling */
 
-#slider img {
-	width: 100%;
+.fullbox p {
+	line-height: 1.5em;
+	text-indent: 15px;
+}
+
+.fullbox .img1 {
+	margin: 20px 30px 20px 0;
+	display: inline;
+	float: left;
+}
+
+.leftp {
+	float: left;
+	width: 800px;
+}
+
+.fullbox .img2 {
+	margin: 20px 0 20px 30px;
+	float: right;
+	display: inline;
+	width: 160px;
 }
