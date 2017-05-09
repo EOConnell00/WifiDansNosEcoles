@@ -1,0 +1,221 @@
+/* Universal Styling */
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	background-color: #EFEFEF;
+}
+
+.content {
+	width: 80%;
+	margin: auto;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.line {
+	width: 80%; 
+}
+
+/* Header Styling */
+
+header {
+	background-color: #CDCDCD;
+	padding: 0;
+	margin: 0;
+	border-bottom: 20px solid #99D3DF;
+}
+
+#title {
+	float: left;
+	margin: 0;
+	padding: 20px;
+	font-size: 16px;
+}
+
+#title h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+
+nav {
+	float: right;
+	padding: 25px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+	display: inline;
+	float: left;
+	padding: 0 10px;
+	list-style-type: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Footer Styling */
+
+footer {
+	background-color: #CDCDCD;
+	color: black;
+	border-bottom: 20px solid #99D3DF;
+	margin-top: 30px;
+}
+
+footer h2 {
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.leftlink {
+	float: left;
+	width: 45%;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.rightlink {
+	float: right;
+	width: 45%;
+	text-align: right;
+	padding-right: 20px;
+}
+
+footer a {
+	color: black;
+}
+
+#icons {
+	clear: both;
+	float: left;
+	margin-top: 5px;
+}
+
+.fa {
+	padding: 0 10px;
+}
+
+.rightemail {
+	float: right;
+	text-align: right;
+	padding-right: 20px;
+	display: inline;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+/* Logo and info styling */
+
+#info {
+	background-color: #EFEFEF;
+}
+/* remplacé le width avec des px, rencontrait probleme lorsqu'il venait à agrandir/rapetisser la page*/
+#logo {
+	width: 264px;
+	border-top: 2px solid #99D3DF;
+	border-right: 2px solid #99D3DF;
+	border-bottom: 2px solid #99D3DF;
+	border-left: 2px solid #99D3DF;
+	border-radius: 15px;
+	margin: 30px 15px 30px 15px;
+	padding: 10px 0;
+	box-sizing: border-box;
+	float: left;
+}
+
+#logo img {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#description {
+	width: 70%;
+	float: right;
+	margin-top: 30px;
+}
+
+#description h2 {
+    text-align: center;
+
+}
+
+#description p {
+	text-align: center;
+	line-height: 1.3em;
+}
+
+/* Article Box1 Styling */
+
+#articles {
+	background-color: #efefef;
+}
+
+#articles h1 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.box1 {
+	width: 70%;
+	margin: 40px auto 20px auto;
+	border: 2px solid #99D3DF;
+	border-radius: 10px;
+	padding: 5px;
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+}
+
+.box1 img {
+	width: 20%;
+	float: left;
+	padding: 10px 0 10px 10px;
+}
+
+.box1 h2 {
+	float: right;
+	width: 70%;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.box1 p {
+	padding: 0 15px 0 25px;
+	font-size: 16px;
+	width: 70%;
+	float: right;
+}
+
+.box1 h3 {
+    padding: 0;
+    margin: 0;
+    clear: both;
+    text-align: right;
+}
+
+.headline a {
+	text-decoration: none;
+	color: black;
+}
