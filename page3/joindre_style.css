@@ -172,3 +172,32 @@ footer a {
 .hyper a {
 	color: black;
 }
+
+/* Ambassador area styling */
+
+.ambtext {
+	width: 50%;
+	float: left;
+}
+
+.temoigne {
+	width: 40%;
+	float: right;
+	text-align: center;
+	border: 2px solid #99D3DF;
+}
+
+.temoigne img {
+	margin: 10px 0;
+}
+
+.temoigne p {
+	margin-top:0;
+}
+
+.INTtext {
+	clear: both;
+}
+
+
+
