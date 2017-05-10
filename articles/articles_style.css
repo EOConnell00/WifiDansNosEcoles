@@ -5,6 +5,7 @@ body{
 	margin: 0;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
+	background-color: #EFEFEF;
 }
 
 .content {
@@ -18,64 +19,67 @@ body{
     clear: both;
 }
 
-/*header styling */
+.line {
+	width: 80%; 
+}
+
+/* Header Styling */
 
 header {
-    background-color: #0A1612;
-    font-size: 20px;
+	background-color: #CDCDCD;
+	padding: 0;
+	margin: 0;
+	border-bottom: 20px solid #99D3DF;
+}
+
+#title {
+	float: left;
+	margin: 0;
+	padding: 20px;
+	font-size: 16px;
+}
+
+#title h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
 }
 
 nav {
-	color: white;
-	background-color: #1A2930;
-	/* border: 3px solid #023EFF; */
-	margin-top: 20px;
+	float: right;
+	padding: 25px;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 
 nav ul {
-	padding: 10px;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
-nav ul li {
+nav li {
+	display: inline;
+	float: left;
+	padding: 0 10px;
 	list-style-type: none;
-	padding: 10px;
 }
 
-nav ul li a {
+nav a {
 	text-decoration: none;
-	color: inherit;
+	color: black;
 }
 
 nav a:hover {
-    color: #023EFF;
-}
-
-#navleft {
-    width: 30%;
-    box-sizing: border-box;
-    float: left;
-    text-align: left;
-}
-
-#navright {
-	width: 30%;
-	box-sizing: border-box;
-	float: right;
-	text-align: right;
-}
-
-#logo img {
-	display:block;
-	margin: auto;
-	padding: 10px 0;
+	text-decoration: underline;
 }
 
 /* Footer Styling */
 
 footer {
-	background-color: #0A1612;
-	color: white;
+	background-color: #CDCDCD;
+	color: black;
+	border-bottom: 20px solid #99D3DF;
+	margin-top: 30px;
 }
 
 footer h2 {
@@ -83,6 +87,7 @@ footer h2 {
 	text-align: center;
 	padding-top: 10px;
 	margin-bottom: 0;
+	margin-top: 0;
 }
 
 .leftlink {
@@ -100,7 +105,7 @@ footer h2 {
 }
 
 footer a {
-	color: white;
+	color: black;
 }
 
 #icons {
@@ -120,4 +125,10 @@ footer a {
 	display: inline;
 	margin-top: 5px;
 	padding: 5px;
+}
+
+/* Logo and info styling */
+
+#info {
+	background-color: #EFEFEF;
 }
