@@ -21,6 +21,7 @@ body{
 
 .line {
 	width: 80%; 
+	border: 1px solid #99D3DF;
 }
 
 /* Header Styling */
